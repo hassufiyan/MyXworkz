@@ -1,0 +1,86 @@
+1)Difference between abstraction and encapsulation?
+Abstraction:Hiding bussiness logic and allowing the user to use the functionaltiy,
+it is nothing but where the class is declared with abstract keyword,
+the abstract class has both abstract and concrete methods in it,
+abstract methods are nothing but methods with empty body,the implementation th the abstract method should be given by implementation class methods,
+the abstraction level is from 0-100%.
+
+encapsulation:
+the code is wrapped inside the class is known as encapsulation..
+it has abstract methods in it,it doesnot have concrete methods,
+the abstraction level is 100%.
+
+2)differebce between IS-A and HAS-A relationship?
+IS-A:
+it is nothing but parent child relationship,where child class inherits all the properties of parent class,
+"EXTENDS "keyword is used by the child class to inherit the properites from parent class.
+here there is not dependencies between the classes,it is independent of each other,
+
+HAS-A:
+it is nothing but a class having the instance of anothert class,
+here there is dependency between two classes,they are depndent on each other,
+the instance of one class gives the relationship between two classes.
+
+3)Java supports multiple interface through INHERITANCE,it doesnot supporty by class,
+because multiple inheirtance has two parent classes and one child class relationship and if the child class tries to access the properites of both parent classes it leads to ambiguity.
+as interface has abstract methods in it the child can access the properties and provide its own implementation to the unimplemented methods.
+
+
+7)equals and equality operator:
+equals():
+this method is used to the check the equality between two objects and this method belongs to object class which is the super most class in java,equals methods checks if the two objects are equal or not,
+while checking the equality between toe objects it is must to override the equals() along with hashcode from object class,or else the equals method will check the adress of the object and returns the results based on adresses of the ojects.
+
+equality operator:
+here the equality operator when used on objects it checks the adress of an object and returns the hashcode of an object,it is must to override hascode from object class to get the accurate output,
+the main purpose of equality operator is used to the equality between two numeric values or data.
+
+8)we can create constants in java by using "FINAL" keyword,the variables declared suing FINAL keyword are called as CONSTANT VARIABLES.
+
+9)Private:
+the accessebility level of this access specifier is with the class only,
+Protected:
+the accessebility level is within the package,but can be accessed outside the pacakage if their is inheritance.
+
+public:
+the accessebility level is high because anyone can access any class without any restrictions.
+
+10)Wrapper class:
+This class makes java 100% object oriented language,because it converts primitive type variables into non primitive type variables,
+ti has two types,
+1)Boxing:
+it converts primitive into non_primitive datatypes;
+2)unboxing:
+it converts non_primitive datatypes into primitive datatypes.
+
+11)System.gc():
+it is a garabage collector which collects the unused objects from the code...it is automatic process,
+when gc() is called at the time of compilation it collects all the unused objects and helps in memory management,
+
+Runtime.gc():
+it collects all the unused objects at the time of execution...
+
+12)Heap area:
+it is the mempry area where all the object level data is stored and the heap are has String Constant Pool area(SCP),
+The string initialized by LITERAL method is going to store in the SCP.
+
+STACK memory:
+it has 3 areas in it,
+1)Local stack area:here all the local variables get stored,
+2)operand stack area:holds intermediate results performed by threads and acts as workspace for threads,
+3)frame stack area:it holds information the execption occured at the time threads executes the programm.
+
+15)Final keyword:
+when the variable is declared as final it is called as CONSTANTS,the constants must be intilaized at the time of declaration or it must be initialized inside the blocks,we cannot reinitialize the constants.
+
+when the method is declared as final,method overriding is not possible.
+
+when the class is declared as final,inheritance is not possible.
+
+14)Markup Interface:
+An interface with empty body is know as markup interface.
+
+ 
+
+
+
